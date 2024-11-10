@@ -30,28 +30,28 @@
 
 
 nav {
-  width: auto;
+  width: 80%;
   font-size: 18px;
   position: sticky;
   top: 0;
 }
-
+/*élément ul après le nav en html*/
 nav > ul {
   display: flex;
   text-align: center;
   box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.3);
   height: var(--hauteur-menu);
 }
-
+/*tous les éléments ul à l'intérieur de nav*/
 nav ul {
   list-style-type: none;
 }
-
+/*éléments li après éléments ul après élément nav*/
 nav > ul > li {
   background-color: white;
   position: relative;
-  height: 100%;
-  flex: 1;
+  height: 100%;/*100% para rapport au parent*/
+  flex: 1;/*adaptation en largeur*/
 }
 
 nav > ul > li:hover > a{
