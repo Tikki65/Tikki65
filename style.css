@@ -129,3 +129,12 @@ li a {
 .sous-menu > li:hover > a {
   color: white;
 }
+
+body {
+    	min-height: 100vh;
+    	margin: 0px;
+    	padding: 0px;
+    	font-size: 1.2em;
+    	background-color: ivory;
+    	padding-top: 125px;
+}
