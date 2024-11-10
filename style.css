@@ -148,6 +148,10 @@ li a {
     	align-items: center;
 }
 
+#check {
+    	display: none;
+}
+
 body {
     	min-height: 100vh;
     	margin: 0px;
