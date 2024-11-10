@@ -19,12 +19,13 @@
     	position: fixed;
     	top: 0;
     	left: 0;
-    	width: auto;
+    	width: 100%;
     	padding: 1.3rem 10%;
     	background-color: white;
     	border-bottom: solid orange;
     	display: flex;
     	justify-content: space-between;
+	text-align: center;
 }
 
 
