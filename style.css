@@ -55,7 +55,7 @@ nav > ul > li {
   background-color: white;
   position: relative;
   height: 100%;/*100% para rapport au parent*/
-  flex: 1;/*adaptation en largeur*/
+  /*flex: 1;/*adaptation en largeur*/
 }
 
 nav > ul > li:hover > a{
