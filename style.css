@@ -35,7 +35,7 @@
 nav {
   width: 90%;/*au lieu de 100%*/
   font-size: 18px;
-	align: left;
+  position: left;
   /*position: sticky;
   top: 0;*/
 }
