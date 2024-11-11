@@ -53,8 +53,8 @@ nav ul {
 nav > ul > li {
   background-color: white;
   position: relative;
-  height: auto;/*100% para rapport au parent*/
-  flex: 2;/*adaptation en largeur*/
+  height: 100%;/*100% para rapport au parent*/
+  	flex: 1;/*adaptation en largeur*/
 }
 
 nav > ul > li:hover > a{
@@ -62,7 +62,7 @@ nav > ul > li:hover > a{
 }
 
 nav > ul > li > a {
-  position: flex;/*absolute*/
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
