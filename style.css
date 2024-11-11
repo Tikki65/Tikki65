@@ -24,8 +24,8 @@
     	background-color: white;
     	border-bottom: solid orange;
     	display: flex;
-    	/*justify-content: space-between;
-	text-align: center;*/
+    	justify-content: space-between;
+	/*text-align: center;*/
 }
 
 #logo{
