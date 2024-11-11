@@ -33,12 +33,11 @@
 }
 
 nav {
-  width: 60%;
+  width: 80%;
   font-size: 18px;
   position: sticky;
   top: 0;
-  content-align: left;
-  color: green;	
+  padding: 0, 50px, 0, 0;	
 }
 /*élément ul après le nav en html*/
 nav > ul {
@@ -46,6 +45,7 @@ nav > ul {
   text-align: center;
   box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.3);
   height: var(--hauteur-menu);
+  color: green;	
 }
 /*tous les éléments ul à l'intérieur de nav*/
 nav ul {
