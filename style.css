@@ -33,8 +33,9 @@
 }
 
 nav {
-  width: 100%;
+  width: 90%;/*au lieu de 100%*/
   font-size: 18px;
+	align: left;
   /*position: sticky;
   top: 0;*/
 }
