@@ -23,7 +23,7 @@
     	padding: 1.3rem 10%;
     	background-color: white;
     	border-bottom: solid orange;
-    	display: flex;
+    	/*display: flex; test alignement*/
     	justify-content: space-between;
 	/*text-align: center;*/
 }
