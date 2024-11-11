@@ -23,7 +23,7 @@
     	padding: 1.3rem 10%;
     	background-color: white;
     	border-bottom: solid orange;
-    	display: flex;
+    	/*display: flex;*/
     	justify-content: space-between;
 	/*text-align: center;*/
 }
@@ -36,7 +36,7 @@ nav {
   width: 90%;/*au lieu de 100%*/
   font-size: 18px;
   position: left;
- float: left;
+	float: left;
 }
 /*élément ul après le nav en html*/
 nav > ul {
@@ -53,8 +53,8 @@ nav ul {
 nav > ul > li {
   background-color: white;
   position: relative;
-  height: 90%;/*100% para rapport au parent*/
-  flex: auto;/*adaptation en largeur*/
+  height: auto;/*100% para rapport au parent*/
+  flex: 2;/*adaptation en largeur*/
 }
 
 nav > ul > li:hover > a{
@@ -62,7 +62,7 @@ nav > ul > li:hover > a{
 }
 
 nav > ul > li > a {
-  position: absolute;
+  position: flex;/*absolute*/
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
