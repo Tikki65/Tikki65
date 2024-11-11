@@ -35,8 +35,8 @@
 nav {
   width: 90%;/*au lieu de 100%*/
   font-size: 18px;
-  position: left;
-	float: center;
+  /*position: left;
+	float: center;*/
 }
 /*élément ul après le nav en html*/
 nav > ul {
@@ -54,7 +54,7 @@ nav > ul > li {
   background-color: white;
   position: relative;
   height: 100%;/*100% para rapport au parent*/
-  	flex: 1;/*adaptation en largeur*/
+  flex: 1;/*adaptation en largeur*/
 }
 
 nav > ul > li:hover > a{
@@ -62,7 +62,7 @@ nav > ul > li:hover > a{
 }
 
 nav > ul > li > a {
-  position: absolute;
+  	/*position: absolute;*/
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
