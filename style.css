@@ -16,7 +16,7 @@
 }
 
 .header {
-    	position: fixed;
+    	position: sticky;/*au lieu de fixed*/
     	top: 0;
     	left: 0;
     	width: 100%;
@@ -33,11 +33,11 @@
 }
 
 nav {
-  width: 80%;
+  width: 100%;
   font-size: 18px;
-  position: sticky;
+  /*position: sticky;*/
   top: 0;
-  padding: 0, 50px, 0, 0;	
+  align: flex;	
 }
 /*élément ul après le nav en html*/
 nav > ul {
