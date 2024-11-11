@@ -23,7 +23,7 @@
     	padding: 1.3rem 10%;
     	background-color: white;
     	border-bottom: solid orange;
-    	/*display: flex;*/
+    	display: flex;
     	justify-content: space-between;
 	/*text-align: center;*/
 }
@@ -61,7 +61,7 @@ nav > ul > li:hover > a{
 }
 
 nav > ul > li > a {
-  	/*position: absolute;*/
+  position: absolute;/*remise  jour*/
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
