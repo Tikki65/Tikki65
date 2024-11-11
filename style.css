@@ -15,18 +15,18 @@
     	margin-right: 10%;
 }
 
-/*.header {
-    	position: sticky;/*au lieu de fixed*/
+.header {
+    	position: fixed;
     	top: 0;
     	left: 0;
     	width: 100%;
     	padding: 1.3rem 10%;
     	background-color: white;
     	border-bottom: solid orange;
-    	display: flex;
+    	/*display: flex;
     	justify-content: space-between;
-	text-align: center;
-}*/
+	text-align: center;*/
+}
 
 #logo{
 	height: 60px;
@@ -48,7 +48,6 @@ nav > ul {
 /*tous les éléments ul à l'intérieur de nav*/
 nav ul {
   list-style-type: none;
-	color: green;
 }
 /*éléments li après éléments ul après élément nav*/
 nav > ul > li {
@@ -56,6 +55,7 @@ nav > ul > li {
   position: relative;
   height: 100%;/*100% para rapport au parent*/
   flex: 1;/*adaptation en largeur*/
+	color: green;
 }
 
 nav > ul > li:hover > a{
