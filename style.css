@@ -36,8 +36,7 @@ nav {
   width: 90%;/*au lieu de 100%*/
   font-size: 18px;
   position: left;
-  /*position: sticky;
-  top: 0;*/
+ float: left;
 }
 /*élément ul après le nav en html*/
 nav > ul {
