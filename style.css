@@ -60,7 +60,7 @@ nav > ul > li:hover > a{
 }
 
 nav > ul > li > a {
-  position: absolute;/*remise  jour*/
+  	/*position: absolute;remise  jour*/
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
