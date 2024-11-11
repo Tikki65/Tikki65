@@ -130,7 +130,7 @@ li a {
 
 .sous-menu > li > a {
   align-items: center;
-  display: flex;
+  	/*display: flex;*/
   height: 50px;
   padding-left: 20px;
   width: auto;/*au lieu de 100%*/
