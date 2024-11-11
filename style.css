@@ -166,3 +166,22 @@ body {
     	background-color: ivory;
     	padding-top: 125px;
 }
+
+p {
+    	text-align: justify;
+	color: green;
+	padding: 10px;
+	overflow: auto;
+}
+h1 {
+	text-align: center;
+	color: 	#C86814;
+}	
+h2 {
+	color: #F5C51D;
+	text-shadow: 0.02em 0.05em 0.0em brown;
+}
+h3 {
+	color: #C86400;
+	text-decoration: underline;	
+}
